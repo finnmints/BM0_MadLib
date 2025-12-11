@@ -17,13 +17,15 @@ green_button = Button(root, text="Green", background='green')
 #Add a label
 label = Label(root, text="This is a stoplight")
 
+Text_box = Text(root, height=40, width=60)
+
 # Place widgets in window (with pack function!)
 label.pack()
 red_button.pack()
 yellow_button.pack()
 green_button.pack()
+Text_box.pack()
 
 # Start the GUI event loop
 root.mainloop()
 
-message = Message("This is a stoplight", "Hi Mr. O")
